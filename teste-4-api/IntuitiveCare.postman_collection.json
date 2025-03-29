@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "7331fa74-868e-4ac2-8ffa-8e7415a1dfa4",
+		"name": "IntuitiveCare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36457229"
+	},
+	"item": [
+		{
+			"name": "GET Principais Operadoras",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/operadoras",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"operadoras"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
