@@ -1,5 +1,8 @@
 <template>
   <h1>Registros de operadoras</h1>
+  <span>Exibindo 10 Registros</span>
+  <br>
+  <br>
   <div class="card">
       <DataTable :value="products" tableStyle="min-width: 50rem">
           <Column field="REGISTRO_OPERADORA" header="REGISTRO_OPERADORA"></Column>
